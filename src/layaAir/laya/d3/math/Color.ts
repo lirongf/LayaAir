@@ -5,7 +5,7 @@ import { IClone } from "../core/IClone"
 	 */
 	export class Color implements IClone {
 		/**
-		 * 红色
+		 * 红色label
 		 */
 		 static RED:Color = new Color(1, 0, 0, 1);
 		/**
