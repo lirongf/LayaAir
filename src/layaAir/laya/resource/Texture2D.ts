@@ -71,6 +71,8 @@ export class Texture2D extends BaseTexture {
 			case TextureFormat.PVRTCRGBA_2BPPV:
 			case TextureFormat.PVRTCRGB_4BPPV:
 			case TextureFormat.PVRTCRGBA_4BPPV:
+			case TextureFormat.KTXTEXTURE:
+			case TextureFormat.PVRTEXTURE:
 				texture.setCompressData(data);
 				break;
 			default:
@@ -565,12 +567,14 @@ export class Texture2D extends BaseTexture {
 				this._pharseDDS(data);
 				break;
 			case TextureFormat.ETC1RGB:
+			case TextureFormat.KTXTEXTURE:
 				this._pharseKTX(data);
 				break;
 			case TextureFormat.PVRTCRGB_2BPPV:
 			case TextureFormat.PVRTCRGBA_2BPPV:
 			case TextureFormat.PVRTCRGB_4BPPV:
 			case TextureFormat.PVRTCRGBA_4BPPV:
+			case TextureFormat.PVRTEXTURE:
 				this._pharsePVR(data);
 				break;
 			default:

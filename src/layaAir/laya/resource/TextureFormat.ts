@@ -30,5 +30,13 @@ export enum TextureFormat {
     /**RGBA格式纹理,每个通道32位浮点数。*/
     R32G32B32A32 = 15,
     /**RGBA格式纹理，每个通道16位浮点数。 */
-    R16G16B16A16 = 17
+    R16G16B16A16 = 17,
+
+
+    /**ktx图片 */
+    KTXTEXTURE = -1,
+    /**pvr图片 */
+    PVRTEXTURE = -2
+
+
 }
