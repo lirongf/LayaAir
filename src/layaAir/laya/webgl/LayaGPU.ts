@@ -4,9 +4,7 @@ import { ILaya } from "../../ILaya";
 import { VertexArrayObject } from "../../laya/webgl/VertexArrayObject";
 import { SystemUtils } from "./SystemUtils";
 
-/**
- * @internal
- */
+
 export class LayaGPU {
     /**@internal */
     private static _extentionVendorPrefixes: any[] = ["", "WEBKIT_", "MOZ_"];

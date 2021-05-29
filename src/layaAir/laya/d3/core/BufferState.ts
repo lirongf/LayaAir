@@ -6,7 +6,6 @@ import { VertexDeclaration } from "../graphics/VertexDeclaration"
 
 
 /**
- * @internal
  * <code>BufferState</code> 类用于实现渲染所需的Buffer状态集合。
  */
 export class BufferState extends BufferStateBase {

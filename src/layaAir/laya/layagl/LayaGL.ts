@@ -1,7 +1,6 @@
 import { LayaGPU } from "../webgl/LayaGPU";
 
 /**
- * @internal
  * 封装GL命令
  */
 export class LayaGL {
