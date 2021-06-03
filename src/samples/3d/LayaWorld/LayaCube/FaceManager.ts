@@ -20,7 +20,7 @@ export class FaceManager{
     cubeBox8Pos:Vector3;
     constructor(position:Vector3){
       //this.cubeBox = _cubeBox4;
-      this.pos = position;
+      this.pos = new Vector3();
       //生成FaceInfo
       //this.creatFaceInfo();
     }

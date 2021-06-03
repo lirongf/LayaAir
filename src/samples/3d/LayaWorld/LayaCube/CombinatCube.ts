@@ -8,9 +8,13 @@ import { FaceManager } from "./FaceManager";
  * 相当于是一个无线编辑的地方，只要组织好了你的Box4
  */
 export class CombinatCube{
-
-    //样本大小  
-    static CombineSize:number = 50;
+    //
+    //单元格子数量  
+    static CombineSize:number = 25;
+    //格子大小
+    static CombineOneMeter = 0.2;//m
+    //单元多少m
+    static CombineOneSampleMeter = 5;//
     //超出Box4几个  
     static resideSize:number;//右 上的格子大小
     //一排多少Box4  //zindex增量
